@@ -29,4 +29,8 @@
     footer{
         display: none;
     }
+
+    iframe{
+        height: 450px;
+    }
 }
