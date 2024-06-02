@@ -4,21 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diiner's Burgers</title>
-    <link rel="icon" href="./images/logos/logo 4.jpg" type="img/jpg" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""
-    />
+    <link rel="icon" href="./images/logos/logo_diner.png" type="img/jpg">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
     <section class="menu-principal">
       <div class="menu container">
-        <img src="./images/logos/logo 4.jpg" alt="logo" />
+        <img src="./images/logos/logo_diner.png" alt="logo" />
 
         <nav>
           <ul class="menu-info">
@@ -29,9 +24,7 @@
           </ul>
         </nav>
 
-        <a href="fazerpedido.html">
-          <button class="button">Fazer Pedido</button>
-        </a>
+        <button class="button" onclick="window.location.href = 'fazerpedido.html'">Fazer Pedido</button>
 
         <div class="mobile-menu-icon">
           <button class="mobile-menu-icon-button">
@@ -51,9 +44,7 @@
           <li><a href="contato.html" class="menu-item">Contato</a></li>
         </ul>
 
-        <a href="fazerpedido.html">
-          <button class="button">Fazer Pedido</button>
-        </a>
+        <button class="button" onclick="window.location.href = 'fazerpedido.html'">Fazer Pedido</button>
       </div>
     </section>
 
@@ -327,31 +318,21 @@
       </div>
     </section>
 
-    <!-- <section class="localizacao">
+    <section class="localizacao">
       <div class="container">
         <h1>Venha já nos conhecer!</h1>
         <div id="map"></div>
       </div>
-    </section> -->
+    </section>
 
     <footer>
-      <p>
-        © Copyright by
-        <a
-          href="https://www.linkedin.com/in/leonardo-cunha-8a6170263/"
-          target="_blank"
-          >Leonardo Cunha</a
-        >
+      <p> © Copyright by 
+        <a href="https://github.com/leonardocunha1" target="_blank" >Leonardo Cunha</a>
       </p>
     </footer>
 
     <a href="https://wa.me/5516999999999" target="_blank">
-      <img
-        class="logo-wpp"
-        src="./images/icons/icons8-whatsapp.svg"
-        alt=""
-        srcset=""
-      />
+        <img class="logo-wpp" src="./images/icons/icons8-whatsapp.svg" alt="" srcset="">
     </a>
 
     <script

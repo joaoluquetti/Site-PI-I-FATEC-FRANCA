@@ -8,13 +8,13 @@ const tabsContainer = document.querySelector(".operations__tab-container");
 const tabsContent = document.querySelectorAll(".operations__content");
 
 // fazendo o menu do celular aparecer e desaparecer
-const openMenu = function () {
+function openMenu(){
   //   btnOpenModal.style.display = "flex";
   overlay.classList.remove("hidden");
   btnOpenModal.style.right = "0";
 };
 
-const closeMenu = function () {
+function closeMenu(){
   overlay.classList.add("hidden");
   btnOpenModal.style.right = "-300px";
 };
